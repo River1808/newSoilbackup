@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Navbar Pure CSS</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/dashboard.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/header.css') }}">
+
+</head>
+
+<body>
+    {% include 'header.html' %}
+    <!-- partial:index.partial.html -->
+    <div id="nav-bar">
+        <div id="nav-header">
+            <hr />
+        </div>
+        <div id="nav-content">
+            <div class="nav-button"><i></i><span>Plant 1</span></div>
+            <div class="nav-button"><i></i><span>Plant 2</span></div>
+            <div class="nav-button"><i></i><span>Plant 3</span></div>
+            <div class="nav-button"><i></i><span>Plant 4</span></div>
+            <div class="nav-button"><i></i><span>Plant 5</span></div>
+            <div class="nav-button"><i></i><span>Plant 6</span></div>
+            <div class="nav-button"><i></i><span>Plant 7</span></div>
+            <div id="nav-content-highlight"></div>
+        </div>
+        <div class="container-6">
+            <div class="copyright">
+                Copyright
+            </div>
+            <img class="group" src="../assets/vectors/group_x2.svg" />
+            <div class="plantville-all-rights-reserved">
+                2024, Plantville. All rights reserved
+            </div>
+        </div>
+</body>
+
+</html>
