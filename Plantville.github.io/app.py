@@ -94,6 +94,7 @@ def logout():
 def checkitems():
     return render_template("checkitems.html")
 
+    
 @app.route('/dashboard', methods=['GET'])
 def dashboard():
     return render_template("dashboard.html")
